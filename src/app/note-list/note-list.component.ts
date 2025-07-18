@@ -23,6 +23,7 @@ export class NoteListComponent {
     this.noteList = this.getDummyData()
   }
 
+
   changeFavFilter(filter:"all" | "fav"){
     this.favFilter = filter;
   }
